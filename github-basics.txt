@@ -1,0 +1,29 @@
+1) login github.com
+2) create repo
+ 2.1) permissions public/private
+ 2.1) gitignore template - node
+ 2.2) license gnu
+ 2.3) copy repository location - github cli
+3) install git cli
+4) open command prompt
+5) go to local repository (folder)
+6) paste repository location - gh repo clone xxx/xxx
+7) follow authentication steps then step 6
+8) git pull origin main
+**it is best to create your own branch before merging the main branch
+9) git checkout -b <name-of-branch>
+**to switch branches for merging
+ 9.1) git checkout main
+**to see changes you've made for current branch
+ 9.2) git status
+**to see differences in code
+ 9.3) git diff
+**to commit local changes <.> all or <folder-name>. this will only apply to current branch
+10) git add .
+11)git commit -m "comment for the changes made"
+**to undo commit
+ 11.1) git reset HEAD~1
+12) git push origin <branch-name>
+**to merge branch with main branch
+13) git checkout <name-of-branch>
+git merge master
